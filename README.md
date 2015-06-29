@@ -39,6 +39,21 @@ MetaSetter.init({
 });
 ```
 
+### updateMetaTags `MetaSetter.updateMetaTags(obj)`
+
+Updates the document meta tags that are passed through the spec object. Typically from a model or a object literal created on the fly on 'static pages'.
+
+```javascript
+var MetaSetter = require('meta-setter');
+
+MetaSetter.updateMetaTags({
+	'title': 'My Awesome Title',
+	'og:title': 'Open Graph Title',
+	'og:description': 'Open Graph Description',
+	... etc
+});
+```
+
 ### reset `MetaSetter.reset()`
 
 Resets document meta tags back to the original default states.

@@ -29,9 +29,5 @@
   "bugs": {
     "url": "https://github.com/imjakechapman/MetaSetter/issues"
   },
-  "homepage": "https://github.com/imjakechapman/MetaSetter#readme",
-  "devDependencies": {
-    "tape": "^4.0.0",
-    "uglify-js": "^2.4.23"
-  }
+  "homepage": "https://github.com/imjakechapman/MetaSetter#readme"
 }
