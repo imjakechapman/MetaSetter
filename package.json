@@ -1,0 +1,37 @@
+{
+  "name": "meta-setter",
+  "version": "0.0.1",
+  "description": "Singleton Object to dynamically update document meta tags in client side applications. WIP",
+  "main": "dist/meta-setter.min.js",
+  "scripts": {
+    "build": "uglifyjs index.js -o dist/meta-setter.min.js",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imjakechapman/MetaSetter.git"
+  },
+  "keywords": [
+    "ampersand.js",
+    "angular.js",
+    "applications",
+    "backbone.js",
+    "browserify",
+    "client",
+    "ember.js",
+    "javascript",
+    "metatags",
+    "side",
+    "webpack"
+  ],
+  "author": "Jake Chapman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imjakechapman/MetaSetter/issues"
+  },
+  "homepage": "https://github.com/imjakechapman/MetaSetter#readme",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "uglify-js": "^2.4.23"
+  }
+}
